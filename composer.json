@@ -1,0 +1,17 @@
+{
+    "name": "webreactor/gekkon4",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Maxim Popov",
+            "email": "toecto@gmail.com"
+        }
+    ],
+    "description": "PHP Template Engine",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Reactor\\Gekkon\\": "src/"
+        }
+    }
+}
