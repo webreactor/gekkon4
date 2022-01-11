@@ -25,12 +25,15 @@ Templating syntax setting.
 You can specify the characters for open and closing tags:
 
 ```php
+use Reactor\Gekkon\Gekkon,
+    Reactor\Gekkon\Tags;
+
 $gekkon = new Gekkon('/path/to/templates/', '/path/to/compiled/templates/');
-$gekkon->settings['tag_systems']['echo'] = array(
+$gekkon->settings['tag_systems'][Tags\SimpleEcho\TagSystem::class] = array(
     'open' => '{{',
     'close' => '}}',
 );
-$gekkon->settings['tag_systems']['common'] = array(
+$gekkon->settings['tag_systems'][Tags\Common\TagSystem::class] = array(
      'open' => '{%',
     'close' => '%}',
 );
