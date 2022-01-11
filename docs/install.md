@@ -1,6 +1,6 @@
 ## Simple Install
 
-- Download the [latest Gekkon release](https://github.com/toecto/gekkon/releases/) in ZIP/GZIP package and extract it to your project directory.
+- Download the [latest Gekkon release](https://github.com/webreactor/gekkon4/releases/) in ZIP/GZIP package and extract it to your project directory.
 - Create an empty directory to store your template files.
 - Create another empty directory to store your compiled versions (cache) of templates.
 
